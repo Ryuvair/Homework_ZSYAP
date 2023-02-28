@@ -1,6 +1,7 @@
 ﻿int Max(int arg1, int arg2, int arg3)
 {
     int max = arg1;
+    int min = arg2;
     if ( arg1 == arg2 & arg3 == arg2 )
     {
         Console.WriteLine("Числа равны");
@@ -8,13 +9,21 @@
     if (arg2 > arg1)
     {
          max = arg2;
+         min = arg1;
     }
     if (arg3 > max)
     {
         max = arg3;
     }
+        if (arg3 < min)
+       {
+        min = arg3;
+     }
+    
     Console.Write("Макcимальное число = ");
     Console.WriteLine(max);
+    Console.Write("Минимальное число = ");
+    Console.WriteLine(min);
     return max;
 }
 void Print(int arg1, int arg2, int arg3)
