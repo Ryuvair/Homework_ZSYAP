@@ -28,20 +28,23 @@ int PalindromeFiveDigitCheck(int arg)
 
     Console.Write("Пятое число : ");
     Console.WriteLine(FivthDigit);
-
+    
+    Console.WriteLine("                                  ");
+    Console.WriteLine("                                  ");
+    
   
     if (FirstDigit == FivthDigit & FourthDigit == FourthDigit)
     {
         Console.Write("Число : ");
-        Console.WriteLine(arg);
-        Console.Write("Является палиндромом");
+        Console.Write(arg);
+        Console.WriteLine(" Является палиндромом");
 
     }
     else
     {
         Console.Write("Число : ");
-        Console.WriteLine(arg);
-        Console.WriteLine("Не Является палиндромом");
+        Console.Write(arg);
+        Console.WriteLine(" Не Является палиндромом");
     }
     return 0;
 }

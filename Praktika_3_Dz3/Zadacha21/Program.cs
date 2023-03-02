@@ -5,6 +5,8 @@
 double Coordinate3DSearch(double arg1_1, double arg1_2, double arg1_3, double arg2_1, double arg2_2, double arg2_3)
 {
 double ans = Math.Sqrt( Math.Pow((arg2_1 - arg1_1), 2) + Math.Pow((arg2_2 - arg1_2), 2)+ Math.Pow((arg2_3 - arg1_3), 2));
+Console.WriteLine("                                 ");
+Console.WriteLine("                                 ");
 Console.Write("расстояние между точками в 3D пространстве : ");
 Console.WriteLine(ans);
 return 0;
