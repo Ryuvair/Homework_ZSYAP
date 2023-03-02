@@ -37,14 +37,14 @@ int PalindromeFiveDigitCheck(int arg)
     {
         Console.Write("Число : ");
         Console.Write(arg);
-        Console.WriteLine(" Является палиндромом");
+        Console.WriteLine(" --> Является палиндромом");
 
     }
     else
     {
         Console.Write("Число : ");
         Console.Write(arg);
-        Console.WriteLine(" Не Является палиндромом");
+        Console.WriteLine(" --> Не Является палиндромом");
     }
     return 0;
 }
