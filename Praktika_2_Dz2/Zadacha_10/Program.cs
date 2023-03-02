@@ -2,21 +2,16 @@
 
 Console.Write("Ведите трехзначное число число : ");
 
-int nubmer = int.Parse(Console.ReadLine());
+int Digit(int arg)
+{
 
- while ( nubmer  < 100 || nubmer > 1000) 
+ while ( arg  < 100 || arg > 1000) 
 {
     Console.WriteLine("Вы ввели не коректное число введите заного");
     Console.Write("Ведите трехзначное число  : ");
     nubmer = int.Parse(Console.ReadLine());
-     
+    arg = nubmer;     
 }
-
-
-
-int Digit(int arg)
-{
-
    
 
 int FirstDigit = arg / 100;
@@ -37,4 +32,7 @@ Console.WriteLine(TherdDigit);
 return 0;
 
     }
+int nubmer = int.Parse(Console.ReadLine());
+
 Digit(nubmer);
+
