@@ -2,7 +2,6 @@
 {
     int max_1 = 0;
     int max_2 = 0;
-    int index = 0;
     for(int i = 0; i < array.Length; i++)
     {
         if (array[i] > max_1) 
@@ -22,7 +21,6 @@
     }
     Console.WriteLine($"Первый максимум: {max_1} | Второй масимум {max_2}");
 }
-
 int[] GenerateArray ()
 {
     Console.WriteLine("Введите колличество элементов");
@@ -47,6 +45,7 @@ void PrintArray(int[] arr)
     }
     Console.WriteLine(" ");
 }
+
 int[] numbers = GenerateArray();
 PrintArray(numbers);
 DubleMax(numbers);
